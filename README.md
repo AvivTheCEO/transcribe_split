@@ -134,3 +134,18 @@ You’ll get in the same folder:
 ## License
 
 This project is released under the MIT License. See [LICENSE](./LICENSE) for details.
+
+---
+
+## Related tools used in my workflow
+
+This script is part of a simple end-to-end workflow for turning recordings into text.  
+Two tools that work great together with `transcribe_split.py`:
+
+- [ZED: Zoom Easy Downloader](https://chromewebstore.google.com/detail/zed-zoom-easy-downloader/pdadlkbckhinonakkfkdaadceojbekep) – Chrome extension that lets you easily download Zoom cloud recordings you’re allowed to save.
+- [File Converter](https://github.com/Tichau/FileConverter) – Open-source Windows tool (GPL-3) that adds a right-click menu for quickly converting and compressing audio/video/files.
+
+You don’t need these tools to use this repo, but they’re very handy if you:
+1. Download Zoom recordings,
+2. Convert them to MP3 / normalize the audio,
+3. Then run `transcribe_split.py` to get clean transcripts.
