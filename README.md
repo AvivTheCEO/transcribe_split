@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="transcribe_split – split long audio and transcribe with OpenAI" width="700">
+</p>
+
 # Audio Transcriber – Split & Transcribe Long Audio Files with OpenAI
 
 This is a small Python utility that:
